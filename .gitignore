@@ -1,0 +1,13 @@
+# Bỏ qua các thư viện được cài đặt qua npm
+node_modules
+
+# Bỏ qua file chứa các biến môi trường và thông tin bí mật
+.env
+
+# Bỏ qua các file log
+*.log
+npm-debug.log*
+
+# Bỏ qua các thư mục hệ thống của một số hệ điều hành
+.DS_Store
+Thumbs.db
